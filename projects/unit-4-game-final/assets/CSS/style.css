@@ -1,0 +1,70 @@
+body{
+    background-image: url(../Images/background2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+@media (max-width: 990px){
+    body{
+        background-image: url(../Images/background2.jpeg);
+        background-size: 100% 160%;
+        background-repeat: no-repeat;
+}
+}
+
+#targetScore{
+    color: beige;
+    font-family: fantasy;
+}
+
+#yourScore{
+    color: beige;
+    font-family: fantasy;
+}
+
+#wins{
+    color: beige;
+    font-family: fantasy;
+}
+
+#losses{
+    color: beige;
+    font-family: fantasy;
+}
+
+div{
+    color: beige;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 140%;
+}
+
+#blue{
+    margin-right: 9%;
+}
+
+@media (max-width:770px){
+    #blue{
+        margin-right: 0%;
+        margin-left: 9%;
+    }
+}
+
+a{
+    font-size: 160%;
+    margin-right: 2%;
+    color: beige;
+    font-family: fantasy
+    
+}
+
+.navbar-brand{
+    font-size: 200%;
+    margin-left: 1%;
+    color: beige;
+    font-family: fantasy;
+}
+
+
